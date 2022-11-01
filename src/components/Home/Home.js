@@ -132,12 +132,12 @@ const Home = () => {
       )}
 
       <Modal open={update} onClose={() => setUpdate(false)}>
-        <div
-          style={{
+        <Box
+          sx={{
             display: "flex",
             flexDirection: "column",
             justifyContent: "center",
-            marginTop: "50%",
+            marginTop: {sm:"7%",xs:"14%"},
             alignItems: "center",
           }}
         >
@@ -170,7 +170,7 @@ const Home = () => {
             Update
           </button>
           {/* </form> */}
-        </div>
+        </Box>
       </Modal>
     </div>
   );
