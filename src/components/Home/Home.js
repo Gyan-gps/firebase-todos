@@ -137,7 +137,7 @@ const Home = () => {
             display: "flex",
             flexDirection: "column",
             justifyContent: "center",
-            marginTop: {sm:"7%",xs:"14%"},
+            marginTop: {sm:"7%",xs:"28%"},
             alignItems: "center",
           }}
         >
